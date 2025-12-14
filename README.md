@@ -589,9 +589,11 @@ vercel env add REACT_APP_API_URL https://your-api.herokuapp.com/api
 <h2 id="contributors">👥 Contributors</h2>
 
 <ul>
-    <li><a href="https://github.com/yourusername">Your Name</a> - Initial work - <strong>@yourusername</strong></li>
+    <li><a href="https://github.com/gauravmatrix">Gaurav Kumar</a> - Initial work - <strong>@gauravmatrix</strong></li>
     <li><strong>AI Assistant</strong> - Code generation and assistance</li>
 </ul>
+
+<hr>
 
 <h2 id="acknowledgments-h2">🙏 Acknowledgments</h2>
         <ul>
@@ -602,11 +604,8 @@ vercel env add REACT_APP_API_URL https://your-api.herokuapp.com/api
             <li>Sweet Shop Theme Inspiration for delightful UI design</li>
         </ul>
 
-    </div>
-
-    <div class="footer-section">
+<div class="footer-section">
         <h3 style="color: #d9534f; margin-bottom: 5px;">🍬 Thank you for reviewing my submission! 🍬</h3>
         <p style="font-size: 0.9em;">This project demonstrates full-stack development skills with modern practices.</p>
         <p style="font-weight: bold;">Looking forward to discussing it further!</p>
-    </div>
 </div>
