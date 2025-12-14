@@ -593,17 +593,20 @@ vercel env add REACT_APP_API_URL https://your-api.herokuapp.com/api
     <li><strong>AI Assistant</strong> - Code generation and assistance</li>
 </ul>
 
-<hr>
+<h2 id="acknowledgments-h2">🙏 Acknowledgments</h2>
+        <ul>
+            <li>Django &amp; React Communities for amazing frameworks and tools</li>
+            <li>Open Source Contributors for libraries and packages</li>
+            <li>AI Tools for enhancing development productivity</li>
+            <li>Test-Driven Development methodology advocates</li>
+            <li>Sweet Shop Theme Inspiration for delightful UI design</li>
+        </ul>
 
-<h2 id="acknowledgments">🙏 Acknowledgments</h2>
+    </div>
 
-<ul>
-    <li>Django and React communities for amazing frameworks</li>
-    <li>Open source contributors for libraries and tools</li>
-    <li>AI tools for enhancing development productivity</li>
-    <li>Test-driven development methodology advocates</li>
-</ul>
-
-<div align="center">
-    <h3>🍬 Enjoy Managing Your Sweet Shop! 🍬</h3>
+    <div class="footer-section">
+        <h3 style="color: #d9534f; margin-bottom: 5px;">🍬 Thank you for reviewing my submission! 🍬</h3>
+        <p style="font-size: 0.9em;">This project demonstrates full-stack development skills with modern practices.</p>
+        <p style="font-weight: bold;">Looking forward to discussing it further!</p>
+    </div>
 </div>
