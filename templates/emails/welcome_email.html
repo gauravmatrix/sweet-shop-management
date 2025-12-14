@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sweet Shop!</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #ff4081; color: white; padding: 20px; text-align: center; border-radius: 10px 10px 0 0; }
+        .content { padding: 30px; background-color: #f9f9f9; }
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+        .button { display: inline-block; padding: 12px 24px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍬 Welcome to Sweet Shop!</h1>
+        </div>
+        
+        <div class="content">
+            <h2>Hello {{ user.username }}!</h2>
+            
+            <p>Welcome to the Sweet Shop Management System. We're excited to have you on board!</p>
+            
+            <p>Your account has been successfully created with the following details:</p>
+            
+            <ul>
+                <li><strong>Email:</strong> {{ user.email }}</li>
+                <li><strong>Username:</strong> {{ user.username }}</li>
+                <li><strong>Account Type:</strong> {% if user.is_admin %}Admin{% else %}User{% endif %}</li>
+            </ul>
+            
+            <p>You can now login to start managing your sweet inventory:</p>
+            
+            <div style="text-align: center;">
+                <a href="{{ login_url }}" class="button">Login to Sweet Shop</a>
+            </div>
+            
+            <p>If you have any questions or need assistance, feel free to contact our support team.</p>
+            
+            <p>Happy managing!<br>
+            <strong>The Sweet Shop Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; {{ current_year }} Sweet Shop Management System. All rights reserved.</p>
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>

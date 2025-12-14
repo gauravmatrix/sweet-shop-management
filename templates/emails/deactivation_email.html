@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account Deactivated</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #f44336; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; background-color: #f9f9f9; }
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Account Deactivated</h1>
+        </div>
+        
+        <div class="content">
+            <h2>Dear {{ user.username }},</h2>
+            
+            <p>Your account with email <strong>{{ user.email }}</strong> has been deactivated.</p>
+            
+            <p>This means you will no longer be able to:</p>
+            <ul>
+                <li>Login to the Sweet Shop Management System</li>
+                <li>Access any sweet inventory data</li>
+                <li>Perform any purchases or restocks</li>
+            </ul>
+            
+            <p>If you believe this was done in error, or if you wish to reactivate your account, 
+            please contact our support team at <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>.</p>
+            
+            <p>Thank you for using Sweet Shop Management System.</p>
+            
+            <p>Sincerely,<br>
+            <strong>The Sweet Shop Team</strong></p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; {% now "Y" %} Sweet Shop Management System</p>
+        </div>
+    </div>
+</body>
+</html>
